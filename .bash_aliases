@@ -54,3 +54,4 @@ function gtag () {
 function gbdo () {
 	git branch -D "$1" && git push origin ":$1"
 }
+alias g='git'
