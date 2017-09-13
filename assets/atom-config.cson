@@ -1,10 +1,15 @@
 "*":
   core:
+    packagesWithKeymapsDisabled: [
+      "sort-lines"
+    ]
     telemetryConsent: "no"
     themes: [
       "one-light-ui"
       "one-light-syntax"
     ]
+  docblockr:
+    align_tags: "no"
   "exception-reporting":
     userId: "cb2e7d6c-bfd3-40ca-87a2-50b4d4a6a221"
   welcome:

@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-## Custom aliases.
-echo "alias g='git'" >> .bash_aliases
-
 # Check if Homebrew is installed. If not, install it.
 which -s brew
 if [[ $? != 0 ]] ; then
