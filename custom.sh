@@ -32,7 +32,6 @@ apps=(
   firefox
   google-chrome
   kaleidoscope
-  logitech-options
   moom
   postman
   slack
