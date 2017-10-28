@@ -17,6 +17,8 @@ packages=(
   hub
   node
   packer
+  ruby
+  watchman
   wget
   yarn
 )
@@ -29,13 +31,21 @@ brew tap caskroom/cask
 # Install apps.
 apps=(
   atom
+  docker
   firefox
+  focusbooster
   google-chrome
+  grammarly
+  hyper
   kaleidoscope
-  logitech-options
   moom
+  nordvpn
   postman
+  sequel-pro
   slack
+  typora
+  vagrant
+  virtualbox
   vlc
 )
 
@@ -50,11 +60,14 @@ pkill atom
 cat ./assets/atom-config.cson > ~/.atom/config.cson
 
 # Install packages.
+apm install atom-ide-ui
+apm install atom-ternjs
 apm install docblockr
 apm install editorconfig
-apm install linter
-apm install linter-csslint
+apm install ide-typescript
+apm install language-docker
+apm install language-nginx
 apm install linter-eslint
-apm install linter-sass-lint
+apm install linter-stylelint
 apm install pigments
 apm install sort-lines
