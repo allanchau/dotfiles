@@ -91,6 +91,3 @@ code --install-extension rafamel.subtle-brackets
 code --install-extension redhat.vscode-yaml
 code --install-extension robinbentley.sass-indented
 code --install-extension shinnn.stylelint
-code --install-extension Tyriar.sort-lines
-
-
