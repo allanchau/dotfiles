@@ -18,7 +18,6 @@ packages=(
   node
   packer
   ruby
-  watchman
   wget
   yarn
 )
@@ -36,7 +35,6 @@ apps=(
   focusbooster
   google-chrome
   gpg-suite
-  grammarly
   hyper
   kaleidoscope
   moom
