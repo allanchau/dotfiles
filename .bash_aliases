@@ -2,7 +2,7 @@
 alias dotfiles='cd $DOTFILES_LOCATION'
 
 # general
-alias cleanuporig='git clean -f *.orig && git clean -f **/*.orig'
+alias cleanuporig='hub clean -f *.orig && hub clean -f **/*.orig'
 
 # command shortcuts
 alias lsl='ls -l'
@@ -20,38 +20,38 @@ alias vh='vagrant halt'
 alias vu='vagrant up'
 
 # git command shortcuts
-alias ga='git add -A'
-alias gav='git add */**/version.json && git add package.json'
-alias gb='git branch'
-alias gd='git diff'
-alias gdt='git difftool'
-alias gco='git checkout'
-alias gbc='git checkout -b'
-alias gc='git commit'
-alias gca='git commit --amend --no-edit'
-alias gf='git fetch'
-alias gfa='git fetch --all && git status'
-alias gl='git log'
-alias gt='git log --pretty=oneline --abbrev-commit --name-status'
-alias gm='git merge'
-alias gmt='git mergetool'
-alias gpl='git pull --rebase'
-alias gp='git push'
-alias gpo='git push -u origin'
-alias gpf='git push --follow-tags'
-alias gr='git remote'
-alias gs='git status -s'
+alias ga='hub add -A'
+alias gav='hub add */**/version.json && hub add package.json'
+alias gb='hub branch'
+alias gd='hub diff'
+alias gdt='hub difftool'
+alias gco='hub checkout'
+alias gbc='hub checkout -b'
+alias gc='hub commit'
+alias gca='hub commit --amend --no-edit'
+alias gf='hub fetch'
+alias gfa='hub fetch --all && hub status'
+alias gl='hub log'
+alias gt='hub log --pretty=oneline --abbrev-commit --name-status'
+alias gm='hub merge'
+alias gmt='hub mergetool'
+alias gpl='hub pull --rebase'
+alias gp='hub push'
+alias gpo='hub push -u origin'
+alias gpf='hub push --follow-tags'
+alias gr='hub remote'
+alias gs='hub status -s'
 
 # git command shortcuts via functions
 function gbco () {
-	git checkout -b "$1" && git push -u origin "$1"
+	hub checkout -b "$1" && hub push -u origin "$1"
 }
 
 function gtag () {
-	git tag -a "$1" -m "$2" && git push origin "$1"
+	hub tag -a "$1" -m "$2" && hub push origin "$1"
 }
 
 function gbdo () {
-	git branch -D "$1" && git push origin ":$1"
+	hub branch -D "$1" && hub push origin ":$1"
 }
-alias g='git'
+alias g='hub'
