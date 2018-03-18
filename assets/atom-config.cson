@@ -5,9 +5,6 @@
     use:
       "atom-ide-diagnostics-ui": "never"
   core:
-    disabledPackages: [
-      "whitespace"
-    ]
     packagesWithKeymapsDisabled: [
       "sort-lines"
     ]
