@@ -12,12 +12,13 @@ fi
 packages=(
   bash
   bash-completion@2
-  coreutils
   git
   hub
-  node
+  kubernetes-cli
+  mongodb
+  node@8
   packer
-  ruby
+  vagrant-completion
   wget
   yarn
 )
@@ -35,7 +36,6 @@ apps=(
   focusbooster
   google-chrome
   gpg-suite
-  hyper
   kaleidoscope
   moom
   nordvpn
@@ -45,7 +45,7 @@ apps=(
   spotify
   typora
   vagrant
-  virtualbox
+  vagrant-vmware-utility
   visual-studio-code
   vlc
   vmware-fusion
@@ -67,7 +67,6 @@ apm install docblockr
 apm install editorconfig
 apm install ide-typescript
 apm install language-docker
-apm install linter
 apm install linter-eslint
 apm install linter-stylelint
 apm install pigments
@@ -79,13 +78,12 @@ apm install wakatime
 # Install packages.
 code --install-extension EditorConfig.editorconfig
 code --install-extension PeterJausovec.vscode-docker
+code --install-extension Tyriar.sort-lines
 code --install-extension WakaTime.vscode-wakatime
+code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension joelday.docthis
 code --install-extension ms-vscode.atom-keybindings
 code --install-extension naumovs.color-highlight
-code --install-extension rafamel.subtle-brackets
-code --install-extension redhat.vscode-yaml
-code --install-extension robinbentley.sass-indented
 code --install-extension shinnn.stylelint
