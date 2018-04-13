@@ -1,0 +1,20 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "none",
+    "editor.rulers": [120],
+    "editor.scrollBeyondLastLine": false,
+    "editor.smoothScrolling": true,
+    "editor.tabSize": 2,
+    "explorer.openEditors.visible": 0,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Default Light+",
+    "workbench.fontAliasing": "auto",
+    "workbench.iconTheme": null,
+    "workbench.startupEditor": "newUntitledFile"
+}

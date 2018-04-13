@@ -75,6 +75,8 @@ apm install wakatime
 
 # VSCode
 
+cat ./assets/vscode-settings.json > ~/Library/Application\ Support/Code/User/settings.json
+
 # Install packages.
 code --install-extension EditorConfig.editorconfig
 code --install-extension PeterJausovec.vscode-docker
