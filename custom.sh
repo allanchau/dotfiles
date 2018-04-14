@@ -33,7 +33,7 @@ apps=(
   atom
   docker
   firefox
-  focusbooster
+  focus-booster
   google-chrome
   gpg-suite
   kaleidoscope

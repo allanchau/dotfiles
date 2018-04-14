@@ -47,7 +47,7 @@ echo "${PLATFORM}" > $HOME/.platform
 echo ".platform created"
 
 # install the various files
-for file in ".bash_profile" ".bash_aliases" ".bash_prompt" "z.sh" ".inputrc"; do
+for file in ".bash_profile" ".bash_aliases" ".bash_colors" ".bash_prompt" "z.sh" ".inputrc"; do
 
 	if [ -e ${PWD}/${file} ] && [ ! -h ${HOME}/${file} ]; then
 		ln -s ${PWD}/${file} ${HOME}/${file}
