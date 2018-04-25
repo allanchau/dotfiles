@@ -16,7 +16,7 @@ packages=(
   hub
   kubernetes-cli
   mongodb
-  node@8
+  node
   packer
   vagrant-completion
   wget
@@ -67,6 +67,7 @@ apm install docblockr
 apm install editorconfig
 apm install ide-typescript
 apm install language-docker
+apm install linter
 apm install linter-eslint
 apm install linter-stylelint
 apm install pigments
@@ -82,10 +83,16 @@ code --install-extension EditorConfig.editorconfig
 code --install-extension PeterJausovec.vscode-docker
 code --install-extension Tyriar.sort-lines
 code --install-extension WakaTime.vscode-wakatime
+code --install-extension WallabyJs.quokka-vscode
+code --install-extension akamud.vscode-theme-onelight
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension felipecaputo.git-project-manager
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-rename-tag
 code --install-extension joelday.docthis
+code --install-extension lamartire.git-indicators
 code --install-extension ms-vscode.atom-keybindings
 code --install-extension naumovs.color-highlight
 code --install-extension shinnn.stylelint
