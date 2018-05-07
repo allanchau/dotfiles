@@ -35,8 +35,11 @@ apps=(
   firefox
   focus-booster
   google-chrome
+  google-cloud-sdk
   gpg-suite
+  hyper
   kaleidoscope
+  minikube
   moom
   nordvpn
   postman
@@ -46,6 +49,7 @@ apps=(
   typora
   vagrant
   vagrant-vmware-utility
+  virtualbox
   visual-studio-code
   vlc
   vmware-fusion
