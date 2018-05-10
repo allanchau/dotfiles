@@ -16,11 +16,11 @@ packages=(
   hub
   kubernetes-cli
   mongodb
-  node
+  node@8
   packer
   vagrant-completion
   wget
-  yarn
+  yarn --without-node
 )
 
 brew install "${packages[@]}"
