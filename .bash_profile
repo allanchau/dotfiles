@@ -31,3 +31,4 @@ fi
 
 source "${HOME}/.bash_dotfiles"
 export GPG_TTY=$(tty)
+export PATH="/usr/local/opt/node@8/bin:$PATH"
