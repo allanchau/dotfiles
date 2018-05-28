@@ -3,6 +3,7 @@ alias dotfiles='cd $DOTFILES_LOCATION'
 
 # general
 alias cleanuporig='hub clean -f *.orig && hub clean -f **/*.orig'
+alias cleanupdock='defaults delete com.apple.dock;defaults write com.apple.dock ResetLaunchPad -bool true;killall Dock;'
 
 # command shortcuts
 alias lsl='ls -l'
@@ -12,6 +13,10 @@ alias lsa='ls -la'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+
+# kubernetes
+alias k='kubectl'
+alias kube='kubectl'
 
 # vagrant shortcuts
 alias v='vagrant'
