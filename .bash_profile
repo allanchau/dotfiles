@@ -30,5 +30,7 @@ if [ -f /usr/local/share/bash-completion/bash_completion ]; then
 fi
 
 source "${HOME}/.bash_dotfiles"
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
 export GPG_TTY=$(tty)
 export PATH="/usr/local/opt/node@8/bin:$PATH"
